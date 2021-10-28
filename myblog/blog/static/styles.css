@@ -1,0 +1,32 @@
+.body_title{
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #FF5DA2;
+}
+
+.div_posts{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.body_links{
+    padding-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #9C19E0;
+    border-radius: 5px;
+
+}
+
+.body_links:visited{
+    color: black;
+}
