@@ -25,4 +25,4 @@ jobs:
       - name: Run Test
         run: |
           cd myblog
-          python manage.py test
+          python3 manage.py test
