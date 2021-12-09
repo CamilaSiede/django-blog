@@ -1,6 +1,7 @@
 from django.http.response import HttpResponse
 from django.shortcuts import render
 import datetime
+# from django.core.mail import send_email
 
 from .models import Blog
 # Create your views here.
@@ -21,3 +22,6 @@ def blog_post(request, id=1):
     return render(request, "blog/blog_post.html", context)
     # html = f"<html><body><h1>{blog_post.title}</h1>{blog_post.date}<p>{blog_post.body}</p></body></html>"
     # return HttpResponse(html)
+
+def contactform(request):
+    return render(request, "blog/contactform.html")
